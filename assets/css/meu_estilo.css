@@ -58,6 +58,12 @@ p{
     width: 300px;
     border: #9920a3 solid 2px;
 }
-.projetos>img{
-    width:100%px
+.projeto>img{
+    width:100%;
+}
+.labels span{
+    color: white !important;
+    background-color: rgb(194, 91, 1);
+    border-radius: 100px;
+    padding: 2px 5px;
 }
