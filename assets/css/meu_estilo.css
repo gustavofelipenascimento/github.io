@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 50px;
+}
 nav {
     height: 50px;
     background-color: #484848;
@@ -6,18 +11,22 @@ nav {
     align-items: center;
     justify-content: end;
     list-style-type: none;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
 }
 nav li{
  padding: 10px;
 }
 a {
     text-decoration: none;
-}
-a:hover{
-    text-decoration: none;
-    color: pink;
+    color: orange
 }
 
+a:hover{
+    color: #8961b5;
+}
 section{
     min-height: 480px;
     background-color: #484848;
@@ -26,7 +35,29 @@ section{
     border: 2px dotted #8961b5
 }
 
-section:hover{
-    background-color: #181818;
-    color:rgb(255, 188, 63);
+.comando-git{
+    padding: 5px;
+    font-size: 1.25rem;
+    border: 3px solid #9920a3;
+    background-color: #c9c8c8;
+    color: #484848;
+}
+p{
+    padding: 5px;
+}
+.conteudo{
+    margin-top: 50px;
+}
+#projetos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.projeto{
+    height: 300px;
+    width: 300px;
+    border: #9920a3 solid 2px;
+}
+.projetos>img{
+    width:100%px
 }
