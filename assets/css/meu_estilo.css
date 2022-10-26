@@ -46,6 +46,8 @@ p{
     padding: 5px;
 }
 .conteudo{
+    text-align: center;
+    justify-content: center;
     margin-top: 50px;
 }
 #projetos{
@@ -59,7 +61,6 @@ p{
     width: 300px;
     border: #9920a3 solid 2px;
     padding: 0 20px 0 20px;
-    
 }
 .projeto>img{
     width:100%;
@@ -69,4 +70,23 @@ p{
     background-color: rgb(194, 91, 1);
     border-radius: 100px;
     padding: 2px 5px;
+}
+#redes_sociais{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.redes{
+    height: 150px;
+    width: 150px;
+    padding: 0 20px 0 20px;
+}
+.redes>img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: #000000;
+    font-size: 1.5cm;
 }
